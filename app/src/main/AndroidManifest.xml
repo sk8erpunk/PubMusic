@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="snikdizh.pub_music" >
+
+    <application
+        android:name=".PubMusicApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true" >
+
+        <!--- define id and key for using Parse:-->
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="hofZEtLHj7L0S3lfyWd13e1pdKIkGZ0ZtJgTP4DM" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="jDWxMODxa1yZO1HhaAcjQTonUA8djkZcJSzeJuM7" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".subclasses.OverallPlaylist"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+    <!--- permissions to use internet:-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+</manifest>

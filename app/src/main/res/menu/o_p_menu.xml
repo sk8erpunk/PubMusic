@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/menu">
+
+        <item
+            android:id="@+id/add_song_button"
+            android:orderInCategory="100"
+            android:title="@string/add_song"
+            android:visible="true"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/play_stop_button"
+            android:orderInCategory="100"
+            android:title="@string/play_song"
+            android:visible="false"
+            app:showAsAction="never"/>
+    </group>
+
+</menu>
