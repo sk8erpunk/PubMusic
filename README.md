@@ -5,6 +5,8 @@ PubMusic was developed mostly for entertainment and challenge purposes.
 Written in Java and developed under Android Stuido.
 
 Here are some screenshots:
+
 ![alt text](https://raw.githubusercontent.com/sk8erpunk/pubmusic/master/screenshots/screenshot1.png)
+
 ![alt text](https://raw.githubusercontent.com/sk8erpunk/pubmusic/master/screenshots/screenshot2.png)
 
